@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  ca-certificates.crt: <base64_root_ca_cert>
+kind: Secret
+metadata:
+  name: root-ca
+  namespace: atlantis
+type: Opaque
